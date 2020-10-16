@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SQLite;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -11,6 +12,8 @@ namespace MonsterBook.Model
     {
         private int id;
 
+        // Is it a plant type, fungi, bacteria or anima
+        [PrimaryKey, AutoIncrement]
         public int Id
         {
             get { return id; }

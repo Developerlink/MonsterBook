@@ -85,6 +85,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Model\Animal.cs" />
+    <Compile Include="Model\Humanoid.cs" />
+    <Compile Include="Model\Mythical.cs" />
+    <Compile Include="ViewModel\BomVM.cs" />
     <Compile Include="ViewModel\SQLiteHelper.cs" />
     <Compile Include="View\MonsterBookWindow.xaml.cs">
       <DependentUpon>MonsterBookWindow.xaml</DependentUpon>

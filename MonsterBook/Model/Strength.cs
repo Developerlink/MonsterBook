@@ -17,7 +17,7 @@ namespace MonsterBook.Model
             set { id = value; }
         }
 
-        private string type; //Lift, carry, push, pull 
+        private string type; //Lift, carry, push, pull exertion-type/work-type
 
         public string Type
         {

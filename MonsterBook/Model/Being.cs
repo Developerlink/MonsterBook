@@ -214,6 +214,22 @@ namespace MonsterBook.Model
             set { treasure = value; }
         }
 
+        private List<Being> naturalEnemies;
+
+        public List<Being> NaturalEnemies
+        {
+            get { return naturalEnemies; }
+            set { naturalEnemies = value; }
+        }
+
+        private List<Being> naturalAllies;
+
+        public List<Being> NaturalAllies
+        {
+            get { return naturalAllies; }
+            set { naturalAllies = value; }
+        }
+
 
 
 
