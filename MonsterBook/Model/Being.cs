@@ -174,6 +174,8 @@ namespace MonsterBook.Model
             set { organisation = value; }
         }
 
+        // minerals (primary producers) >< (non producers) decayed or dead organic, organic, direct energy forms
+        // self sustainers (energy and matter core/mystic core/divine core)
         private string diet;
 
         public string Diet

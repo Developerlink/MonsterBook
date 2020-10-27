@@ -17,9 +17,13 @@ namespace MonsterBook.Model
             set { id = value; }
         }
 
+        //Land - Stationary, crawl, slither, walk, run
+        //Water - swim, dive/thrust 
+        //Air - hover/levitate, fly, 
+        //Space - teleport, displace/replace (should maybe be considered an ability rather than basic movement or maybe be placed at both places)
         private string type;
 
-        public string Type //walk, hover, fly, swim, dive/thrust, teleport,
+        public string Type 
         {
             get { return type; }
             set { type = value; }
@@ -56,10 +60,6 @@ namespace MonsterBook.Model
             get { return sprintStamina; }
             set { sprintStamina = value; }
         }
-
-
-
-
 
         private string attribute;
 

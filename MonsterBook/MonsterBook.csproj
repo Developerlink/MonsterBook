@@ -120,7 +120,7 @@
     <Compile Include="Model\Spell.cs" />
     <Compile Include="Model\SpellType.cs" />
     <Compile Include="Model\Strength.cs" />
-    <Compile Include="Model\Type.cs" />
+    <Compile Include="Model\BeingType.cs" />
     <Compile Include="Model\Weakness.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>

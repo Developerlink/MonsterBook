@@ -8,8 +8,10 @@ using System.Threading.Tasks;
 
 namespace MonsterBook.Model
 {
-    public class Type : INotifyPropertyChanged
+    public class BeingType : INotifyPropertyChanged
     {
+        //? Should this be an enum instead?
+
         private int id;
 
         // Is it a plant type, fungi, bacteria or anima
